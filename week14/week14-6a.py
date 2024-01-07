@@ -17,3 +17,13 @@ if a==1100: print(12)
 if a==1101: print(13)
 if a==1110: print(14)
 if a==1111: print(15)
+
+
+
+a = input()
+
+a0 = int(a[0])*8
+a1 = int(a[1])*4
+a2 = int(a[2])*2
+a3 = int(a[3])*1
+print( a0+ a1 + a2 + a3)
